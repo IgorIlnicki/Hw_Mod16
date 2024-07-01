@@ -132,4 +132,4 @@ if uploaded_file is not None:
     with open(uploaded_file.name, 'wb') as f:
         f.write(uploaded_file.getbuffer())
 
-    st.success('Файл успішно завантажено!')
+   # st.success('Файл успішно завантажено!')
